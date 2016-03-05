@@ -4,7 +4,7 @@ email: my@fuhaifei.xyz
 description: 符海飞的Jekyll博客
 github_username:  turkey321
 permalink: /:year/:month/:day/:title/
-url:www.fuhaifei.xyz/jekyll_blog/
+url: "http://www.fuhaifei/jekyll_blog/"
 
 # Build settings
 markdown: kramdown
