@@ -1,40 +1,26 @@
 # Site settings
-title: 符海飞的 Jekyll Blog
-email: my@fuhaifei.xyz
-description: "Python,HTML,CSS,Machine Leaning"
-permalink: /:year/:month/:day/:title.html
-baseurl: ""
-url: "http://www.fuhaifei/jekyll_blog/"
-atom-baseurl: "http://www.fuhaifei/jekyll_blog/"
-author: "turkey"
+title: Wind
+email: 2467254599@qq.com
+description: 张子锐的博客 前端爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  ZZR-china
+permalink: /:year/:month/:day/:title/
 
 # Build settings
-# permalink: date
+markdown: kramdown
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
+paginate: 9
+paginate_path: "page:num"
 
-#duoshuo
-  comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : fuhaifei
-
-navigations:
-  - title: About
-    class: fa fa-list-ul
-    href: /about/
-  - title: Archive
-    class: fa fa-tags
-    href: /archive/
-  - title: Categories
-    class: fa fa-user
-    href: /categories/
-  - title: Tags
-    class: fa fa-film
-    href: /tags/
-  - title: Rss
-    class: fa fa-rss
-    href: /atom.xml
+# highlight
+# 本地用rouge, github上用pygments
+#highlighter: pygments
+#highlighter: rouge
+# highlighter: false

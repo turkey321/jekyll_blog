@@ -1,7 +1,8 @@
-个人博客,请随意使用
+#Readme
+This is the data of my blog
 
-PS:如果使用此博客,请修改多说
+---
 
-PSS: 首页文章是在categray == life里的第一篇
+Thank you.
+Here is my blog: [ZZR](http://www.zhangzirui.com)
 
-(*^__^*)
