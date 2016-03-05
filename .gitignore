@@ -1,2 +1,5 @@
 _site/
-*.bat
+_posts/
+.*.un~
+CNAME
+
