@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<link type="text/css" rel="stylesheet" href="/assets/post.css">
+
+<div class="post">
+    <div class="posttext">
+        <div class="posttitle">
+            <a href="{{ page.url }}"><i class="fa {{ page.icon }}"></i>&nbsp;&nbsp;{{ page.title }}</a>
+            <hr>
+        </div>
+        <div class="postcontent">
+            {{ content | markdownify }}
+        </div>
+    </div>
+    {% include commentbox %}
+    <div class="postfooter"></div>
+</div>
