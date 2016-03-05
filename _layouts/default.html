@@ -2,31 +2,32 @@
 <html>
 
   {% include head.html %}
-
- <!--  <body data-spy="scroll" data-target="#myAffix"> -->
+  
   <body>
-
+  
     {% include header.html %}
-
-
+	
     <div id="main" class="container main">
       {{ content }}
-    </div>
-
-    
+    </div>   
     <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
       <a href="javascript:;">
         <div class="arrow"></div>
         <div class="stick"></div>
       </a>
     </div>
-
+	<!--<div id="top" data-toggle="tooltip" data-placement="right" title="所有文章">
+      <a href="javascript :history.back(-1)">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+      </a>
+    </div>-->
+	
     {% include footer.html %}
-
-
+	
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   <script type="text/javascript">
-    var duoshuoQuery = {short_name:"hygblog"};
+    var duoshuoQuery = {short_name:"fuhaifei"};
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;

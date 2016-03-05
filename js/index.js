@@ -137,19 +137,5 @@ function generateContent() {
         $('#myArticle').removeClass('col-sm-9').addClass('col-sm-12');
     } else {
         $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
-        /*   //数据加载完成后，加固定边栏
-        $('#myAffix').attr({
-            'data-spy': 'affix',
-            'data-offset': '50'
-        });*/
     }
-    console.log("myAffix!!!");
 }
-
-//离开页面改变titile的方法
-    window.onblur = function() {
-      document.title = '你出现了一个BUG！';
-    };
-    window.onfocus = function() {
-      document.title = "Just a Joke";
-    };

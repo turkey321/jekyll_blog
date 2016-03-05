@@ -1,8 +1,4 @@
 #Readme
-This is the data of my blog
+这是我为我个人网站(http://www.fuhaifei.xyz)中的博客模块配的Jekyll博客
 
----
-
-Thank you.
-Here is my blog: http://www.fuhaifei.xyz/jekyll_blog
 
