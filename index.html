@@ -37,7 +37,7 @@ layout: default
             {% elsif page == 1 %}
               <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
-              <a href="http://www.fuhaifei.xyz/jekyll_blog/{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+              <a href="www.fuhaifei.xyz/jekyll_blog/{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
             {% endif %}
         {% endfor %}
 

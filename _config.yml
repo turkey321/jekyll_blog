@@ -12,6 +12,6 @@ markdown: kramdown
 
 gems: [jekyll-paginate]
 
-paginate: 2
+paginate: 4
 paginate_path: "page:num"
 
