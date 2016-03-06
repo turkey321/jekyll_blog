@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="navbar-text">符海飞的jekyll博客<a href="https://github.com/turkey321">（github）</a></p>
+      <p class="navbar-text">符海飞的jekyll博客<a href="http://www.fuhaifei.xyz/jekyll_blog/">（转到单独博客界面）</a></p>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -19,7 +19,7 @@
           {% else %}
           <li>
         {% endif %}
-          <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span>文章</a></li>
+          <a href="{{ site.baseurl }}/">所有文章</a></li>
 
         {% for p in site.pages %}
           {% if p.title %}
