@@ -2,8 +2,8 @@
 layout: post
 title:  "MongoDB安装成为windows服务"
 date:   2016-1-10 22:14:54
-categories: node mongodb
-excerpt: node nodejs  blog 张子锐 mongodb
+categories: mongodb
+excerpt: node nodejs  blog 符海飞 mongodb
 ---
 
 * content
