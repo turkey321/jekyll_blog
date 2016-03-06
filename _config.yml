@@ -2,7 +2,7 @@
 title: jekyll_blog
 email: my@fuhaifei.xyz
 description: 符海飞的个人博客
-baseurl: "/jekyll_blog/"
+baseurl: "www.fuhaifei.xyz/jekyll_blog/"
 
 github_username:  turkey321
 permalink: /:year/:month/:day/:title/
