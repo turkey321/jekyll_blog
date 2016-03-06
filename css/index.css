@@ -659,3 +659,9 @@ a:visited {
 a:link {
 	text-decoration: none;
 }
+
+.xxyy2{
+	position: fixed;
+    right: 7%;
+    top: 73px;
+}
