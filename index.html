@@ -4,6 +4,11 @@ layout: default
 <div id="index" class="row">
   <div class="col-sm-9">
     <div class="post-area">
+      <!-- small button -->
+     <!--  <p class="pull-right visible-xs">
+       <button>toggle</button>
+     </p> -->
+      
       <div class="post-list-body">
         
         <div class="all-posts" post-cate="All">
@@ -32,7 +37,7 @@ layout: default
             {% elsif page == 1 %}
               <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
-              <a href="{{ site.paginate_path | prepend: www.fuhaifei.xyz/jekyll_blog/ | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+              <a href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
             {% endif %}
         {% endfor %}
 

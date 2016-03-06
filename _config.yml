@@ -10,6 +10,8 @@ permalink: /:year/:month/:day/:title/
 # Build settings
 markdown: kramdown
 
-paginate: 9
+gems: [jekyll-paginate]
+
+paginate: 4
 paginate_path: "page:num"
 
