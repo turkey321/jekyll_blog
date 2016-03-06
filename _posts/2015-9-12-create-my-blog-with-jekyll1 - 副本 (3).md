@@ -30,7 +30,7 @@ ruby官网下载安装：[https://www.ruby-lang.org/en/downloads/](https://www.r
 安装完成后配置环境变量
 
 在命令提示符中，得到ruby版本号，如下图，即安装成功
-![ruby-v]({{ "/images/creatblog/ruby-v.png"| prepend: site.baseurl }})
+![ruby-v]({{ "/images/creatblog/ruby-v.png"}})
 
 ---
 
@@ -40,11 +40,11 @@ ruby官网下载安装：[https://www.ruby-lang.org/en/downloads/](https://www.r
 
 cd到RubyGems目录   
 
-![ruby-gems]({{ "/images/creatblog/ruby-gems.png"| prepend: site.baseurl }})    
+![ruby-gems]({{ "/images/creatblog/ruby-gems.png"}})    
 
 执行安装   
 
-![ruby-gems-setup]({{"/images/creatblog/ruby-gems-setup.png"| prepend: site.baseurl }})   
+![ruby-gems-setup]({{"/images/creatblog/ruby-gems-setup.png"}})   
 
 ---
 
@@ -59,11 +59,11 @@ DevKit 是windows平台下编译和使用本地C/C++扩展包的工具。它就�
 
 执行下面的语句安装   
 
-![jekyll-setup]({{"/images/creatblog/jekyll-setup.png"| prepend: site.baseurl }})   
+![jekyll-setup]({{"/images/creatblog/jekyll-setup.png"}})   
 
 安装结束画面   
 
-![jekyll-setup-finish]({{"/images/creatblog/jekyll-setup-finish.png"| prepend: site.baseurl }})   
+![jekyll-setup-finish]({{"/images/creatblog/jekyll-setup-finish.png"}})   
 
 至此jekyll就已经安装完毕了，后续就是个性化的自己设定了。   
 
@@ -77,33 +77,33 @@ cd到jekyllWorkspace
 
 执行jekyll new name创建新的工作区   
 
-![jekyllWorkSpace]({{"/images/creatblog/jekyllWorkSpace.png"| prepend: site.baseurl }})   
+![jekyllWorkSpace]({{"/images/creatblog/jekyllWorkSpace.png"}})   
 
 文件结构如下：   
 
-![jekyllFiles]({{"/images/creatblog/jekyllFiles.png"| prepend: site.baseurl }})
+![jekyllFiles]({{"/images/creatblog/jekyllFiles.png"}})
 
 cd到博客文件夹，开启服务器   
 
-![serve]({{"/images/creatblog/serve.png"| prepend: site.baseurl }})   
+![serve]({{"/images/creatblog/serve.png"}})   
 
 watch为了检测文件夹内的变化，即修改后不需要重新启动jekyll
 
 我的环境下启动报错(你的可能没有)，再安装yajl-ruby和rouge  
 
-![yajl]({{"/images/creatblog/yajl.png"| prepend: site.baseurl }})
+![yajl]({{"/images/creatblog/yajl.png"}})
 
 再次启动服务器成功
 
-![serve-sucess]({{"/images/creatblog/serve-sucess.png"| prepend: site.baseurl }})
+![serve-sucess]({{"/images/creatblog/serve-sucess.png"}})
 
 访问 http://localhost:4000/   
 
-![browser]({{"/images/creatblog/browser.png"| prepend: site.baseurl }})   
+![browser]({{"/images/creatblog/browser.png"}})   
 
 详细文章页面   
 
-![browser2]({{"/images/creatblog/browser2.png"| prepend: site.baseurl }})  
+![browser2]({{"/images/creatblog/browser2.png"}})  
 
 ---
 
