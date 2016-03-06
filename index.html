@@ -37,7 +37,7 @@ layout: default
             {% elsif page == 1 %}
               <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
-              <a href="/{{ site.paginate_path | {{www.fuhaifei.xyz}} prepend: site.baseurl |replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+              <a href="javascript.void(0)">{{ page }}</a>
             {% endif %}
         {% endfor %}
 
