@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MongoDB安装成为windows服务"
+title:  MongoDB安装成为windows服务
 date:   2016-1-10 22:14:54
 categories: mongodb
 excerpt: node nodejs  blog 符海飞 mongodb
