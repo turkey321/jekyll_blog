@@ -2,7 +2,7 @@
 layout: post
 title:  "符海飞的课堂笔记--J2SE"
 date:   2016-3-6
-categories: 笔记
+categories: 笔记 j2se
 duoshuo: true
 ---
 
